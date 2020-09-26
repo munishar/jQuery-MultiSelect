@@ -1,6 +1,7 @@
 .ms-options-wrap,
 .ms-options-wrap * {
     box-sizing: border-box;
+    position: relative; /* This line places the dropdown-box  relative  to the placeholder than posting it all the left */
 }
 
 .ms-options-wrap > button:focus,
